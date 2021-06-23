@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div id="container">
+        <header>
+            <a href="#" id="partie">partie</a>
+            <nav>
+                <ul id="nav_menu">
+                    <li><a href="#">quitte</a></li>
+                    <li><a href="index.htm">nouvelle partie</a></li>
+                    <li><a href="#" id="opnOption">option</a></li>
+                </ul>
+                <div class="option_menu">
+                    <input type="radio" name="options" id="faci" value="faci"> facile
+                    <input type="radio" name="options" id="moy" value="moy"> moyenne
+                    <input type="radio" name="options" id="deff" value="deff"> difficile
+                </div>
+            </nav>
+        </header>
+
+
+        <fieldset>
+            <legend>operation</legend>
+            <input type="text" id="eq" placeholder="equation 1er deg">
+        </fieldset>
+
+        <fieldset>
+            <legend>resultat</legend>
+            <input type="text" id="res" placeholder="tapez le resultat">
+        </fieldset>
+        <div id="chorno"><span id="minutes">4</span> min <span id="secs">59</span> sec</div>
+        <div id="score">0/0</div>
+        <button id="startbtn">start</button>
+        <div id="msg"></div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
